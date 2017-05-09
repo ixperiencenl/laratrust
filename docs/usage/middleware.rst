@@ -50,3 +50,7 @@ To make a redirection in case the middleware check fails, you will need to chang
 
     'middleware_handling' => 'redirect',
     'middleware_params'   => '/home',       // Change this to the route you need
+    
+Working with third party libraries
+--------
+When using third-party libraries for authenticating with tokens (such as JWT), make sure you update your LaratrustRole.php middleware file with the correct user object. 
